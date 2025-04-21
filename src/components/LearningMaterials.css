@@ -1,0 +1,129 @@
+/* LearningMaterials.css */
+
+.learning-materials-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #d0f0c0, #b2dfdb); /* Matching green gradient */
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+}
+
+.learning-materials-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 30px;
+}
+
+.search-bar-container {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar:focus {
+  border-color: #66bb6a;
+  box-shadow: 0 0 8px rgba(102, 187, 106, 0.4);
+}
+
+.file-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.file-card {
+  background-color: #ffffffcc; /* translucent white */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+.file-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.file-info {
+  margin-bottom: 15px;
+}
+
+.file-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+.file-size {
+  font-size: 1rem;
+  color: #555;
+}
+
+.file-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.view-btn,
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.view-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.download-btn {
+  background-color: #388e3c;
+  color: white;
+}
+
+.view-btn:hover {
+  background-color: #388e3c;
+}
+
+.download-btn:hover {
+  background-color: #2e7d32;
+}
+
+.no-files-message {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+}
+
+.message {
+  font-size: 1rem;
+  color: #d9534f;
+  margin-top: 20px;
+}

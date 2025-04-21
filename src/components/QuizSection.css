@@ -1,0 +1,61 @@
+/* Background and Container */
+.quiz-container {
+    text-align: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+    background: linear-gradient(to right, #d0f0c0, #b2dfdb); /* Light green gradient */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Heading */
+  .quiz-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #2e7d32; /* Deep green */
+    letter-spacing: 1px;
+  }
+  
+  /* Grid Layout */
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 25px;
+    justify-content: center;
+    padding: 0 15px;
+  }
+  
+  /* Category Card */
+  .category-card {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2e7d32;
+    cursor: pointer;
+    border: 2px solid transparent;
+    position: relative;
+  }
+  
+  /* Hover Effect */
+  .category-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #66bb6a;
+    color: #1b5e20;
+    box-shadow: 0 10px 30px rgba(102, 187, 106, 0.4);
+  }
+  
+  /* Optional: Add subtle icon or emoji */
+  .category-card::before {
+    content: '📝';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 1.2rem;
+    opacity: 0.3;
+  }
+  

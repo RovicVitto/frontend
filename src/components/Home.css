@@ -1,0 +1,111 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #d0f0c0, #b2dfdb); /* Soft green background */
+}
+
+/* Main Container */
+.home-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #66bb6a, #388e3c);
+  color: white;
+  padding: 100px 20px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* Call to Action Button */
+.cta-button {
+  background-color: #ffffff;
+  color: #2e7d32;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+  background-color: #388e3c;
+  color: white;
+}
+
+/* Info Section */
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* Info Cards */
+.info-card {
+  background-color: #ffffffcc;
+  backdrop-filter: blur(6px);
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.info-card-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+.info-card-description {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Info Card Button */
+.info-card-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.info-card-button:hover {
+  background-color: #2e7d32;
+}
