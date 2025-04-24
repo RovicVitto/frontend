@@ -758,6 +758,81 @@ const quizData = {
             ],
 
         "TVL-FBS/COOKERY": [
+          {
+            question: "What is the main ingredient in guacamole?",
+            options: ["Tomato", "Avocado", "Cucumber", "Lemon"],
+            answer: "Avocado"
+        },
+        {
+            question: "Which of the following is a type of fish commonly used for sushi?",
+            options: ["Salmon", "Chicken", "Beef", "Pork"],
+            answer: "Salmon"
+        },
+        {
+            question: "Which cooking method involves cooking food by submerging it in hot oil?",
+            options: ["Boiling", "Frying", "Grilling", "Steaming"],
+            answer: "Frying"
+        },
+        {
+            question: "What is the term for the process of cooking meat slowly in liquid?",
+            options: ["Braising", "Grilling", "Sautéing", "Baking"],
+            answer: "Braising"
+        },
+        {
+            question: "Which of the following is a type of mushroom commonly used in cooking?",
+            options: ["Button mushroom", "Spinach", "Lettuce", "Carrot"],
+            answer: "Button mushroom"
+        },
+        {
+            question: "What is the main purpose of a slow cooker?",
+            options: ["To fry food", "To bake food", "To cook food slowly at low temperatures", "To steam food"],
+            answer: "To cook food slowly at low temperatures"
+        },
+        {
+            question: "Which fruit is traditionally used to make guacamole?",
+            options: ["Apple", "Avocado", "Banana", "Peach"],
+            answer: "Avocado"
+        },
+        {
+            question: "Which of the following is a primary ingredient in a Caesar salad dressing?",
+            options: ["Mayonnaise", "Olive oil", "Egg yolk", "Anchovies"],
+            answer: "Anchovies"
+        },
+        {
+            question: "What is the name of the Italian dish made with layers of pasta, sauce, and cheese?",
+            options: ["Lasagna", "Pizza", "Spaghetti", "Fettuccine"],
+            answer: "Lasagna"
+        },
+        {
+            question: "Which cooking technique is used to cook food by exposing it to direct heat in an oven?",
+            options: ["Baking", "Steaming", "Frying", "Grilling"],
+            answer: "Baking"
+        },
+        {
+            question: "What is the primary ingredient in the dish ‘Hummus’?",
+            options: ["Chickpeas", "Lentils", "Peas", "Beans"],
+            answer: "Chickpeas"
+        },
+        {
+            question: "What is the term for cooking food in water just below boiling point?",
+            options: ["Poaching", "Boiling", "Simmering", "Frying"],
+            answer: "Simmering"
+        },
+        {
+            question: "Which of the following is a tropical fruit?",
+            options: ["Apple", "Banana", "Pear", "Orange"],
+            answer: "Banana"
+        },
+        {
+            question: "What is the purpose of a rolling pin in baking?",
+            options: ["To mix ingredients", "To cut dough", "To roll out dough", "To sift flour"],
+            answer: "To roll out dough"
+        },
+        {
+            question: "Which of the following is considered a healthy fat?",
+            options: ["Butter", "Olive oil", "Vegetable oil", "Lard"],
+            answer: "Olive oil"
+        },
              {
     question: "What does FBS stand for?",
     options: ["Frozen Beverage Store", "Fast Breakfast Services", "Food and Beverage Services", "Food Baking Science"],
