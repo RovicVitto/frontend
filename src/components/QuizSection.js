@@ -5,7 +5,7 @@ import quizData from '../data/questions'; // ✅ Import question data
 const categories = ['STEM', 'ABM', 'HUMSS', 'TVL-ICT', 'TVL-FBS/COOKERY'];
 
 // ✅ Utility function to get random questions
-const getRandomQuestions = (category, count = 50) => {
+const getRandomQuestions = (category, count = 60) => {
   const questions = quizData[category] || [];  // Default to empty array if no questions for the category
   const shuffled = [...questions].sort(() => 0.5 - Math.random()); // Shuffle questions
   return shuffled.slice(0, count);  // Return the top 'count' random questions
